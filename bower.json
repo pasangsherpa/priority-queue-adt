@@ -1,0 +1,29 @@
+{
+  "name": "priority-queue-adt",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pasangsherpa/priority-queue-adt",
+  "authors": [
+      "Pasang Sherpa <pgyalzen@gmail.com> (https://github.com/pasangsherpa)"
+  ],
+  "description": "Priority Queue ADT for browser and nodejs",
+  "main": "dist/priority-queue-adt.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "priorityqueue",
+    "adt",
+    "datatype",
+    "abstractdatatype"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

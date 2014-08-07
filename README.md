@@ -52,7 +52,7 @@ Type: `Object`
 
 the desired options for the queue.
 
-#####Possible options parameters
+#####Possible options parameters. All options are optional. 
 
 ##### comparator
 
@@ -78,9 +78,7 @@ initial elements.
 
 Default: `[]`
 
-All the options are optional. 
-
-Example
+#####Example
 ```js
 var priorityQueue = new PriorityQueue({
 	comparator: function(a, b){ return a > b; },

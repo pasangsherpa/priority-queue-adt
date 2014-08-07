@@ -146,11 +146,11 @@ the iterator object of the queue
 
 #### .iterator.next() `throws "No such element" error` 
 
-Returns the next item in FIFO order.
+Returns the next item.
 
 #### .iterator.hasNext()
 
-Returns whether the queue has next item in FIFO order.
+Returns whether the queue has next item.
 
 
 ## License

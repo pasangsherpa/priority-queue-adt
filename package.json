@@ -1,6 +1,6 @@
 {
   "name": "priority-queue-adt",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Priority Queue ADT for browser and nodejs",
   "main": "dist/priority-queue-adt.js",
   "scripts": {

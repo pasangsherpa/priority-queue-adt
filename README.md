@@ -2,6 +2,8 @@
 
 > PriorityQueue ADT for browser and nodejs
 
+The **PriorityQueue** class represents an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it. In the **PriorityQueue**, an element with high priority is served before an element with low priority. It supports the usual *insert* and *remove* operations, along with methods for examining the front of the queue, testing if the queue is empty, and iterating through the items.
+
 
 ## Install
 

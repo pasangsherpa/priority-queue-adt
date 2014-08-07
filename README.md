@@ -46,32 +46,47 @@ Creates an empty priority queue with infinite capacity.
 
 Creates an empty priority queue with the given options.
 
-#### comparator
+#### options
+
+Type: `Object`
+
+options is an object that includes the desired options for the queue.
+
+Possible options
+
+##### comparator
 
 Type: `function`
 
-comparator function to use to order the elements in the queue.
+comparator function to use to order the elements in the queue. 
 
-#### initialCapacity
+Default: `function(a,b) { return a > b; }`
+
+##### initialCapacity
 
 Type: `int`
 
 initialCapacity represents the specified capacity.
 
-#### keys
+Default: `Infinity`
+
+##### keys
 
 Type: `Array`
 
-initial elements to be loaded.
+initial elements.
 
+#Default: `[]`
 
+All the options are optional. 
+
+Example
 ```js
 var priorityQueue = new PriorityQueue({
 	comparator: function(a, b){ return a > b; },
 	initialCapacity: 100,
 	keys: [1,2,3,4,5]
 });
-
 ```
 
 

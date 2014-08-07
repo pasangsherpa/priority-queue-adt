@@ -138,7 +138,7 @@ Removes all element from the the queue and returns the new size of the queue.
 
 #### .iterator
 
-Returns an iterator to the queue that iterates through the items in FIFO order.
+Returns an iterator to the queue that iterates through the items.
 
 Type: `object`
 

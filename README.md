@@ -50,9 +50,9 @@ Creates an empty priority queue with the given options.
 
 Type: `Object`
 
-options is an object that includes the desired options for the queue.
+the desired options for the queue.
 
-Possible options
+#####Possible options parameters
 
 ##### comparator
 
@@ -76,7 +76,7 @@ Type: `Array`
 
 initial elements.
 
-#Default: `[]`
+Default: `[]`
 
 All the options are optional. 
 
